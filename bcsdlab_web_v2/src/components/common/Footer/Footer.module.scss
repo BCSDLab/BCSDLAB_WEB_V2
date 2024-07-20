@@ -1,0 +1,36 @@
+.footer {
+  margin-top: auto;
+  width: 100%;
+  height: 160px;
+  background-color: #778391;
+  vertical-align: middle;
+
+  &__content {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--logo {
+      text-align: start;
+      & img {
+        margin-top: 40px;
+        width: 225px;
+        cursor: pointer;
+      }
+    }
+
+    &--copyright {
+      margin-top: 11px;
+      margin-left: 50px;
+      float: left;
+      font-family: AppleSDGothicNeoL00;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: -0.48px;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+}

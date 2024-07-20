@@ -1,0 +1,36 @@
+.topnav {
+  width: 100%;
+  min-width: 1400px;
+  float: left;
+  height: 70px;
+  background-color: #778391;
+  line-height: 70px;
+  user-select: none;
+  font-family: AppleSDGothicNeoM00;
+
+  &__logo {
+    float: left;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+
+    &--image {
+      float: left;
+      margin-top: 5px;
+      cursor: pointer;
+      width: 280px;
+    }
+  }
+
+  &__menu {
+    float: right;
+
+    &--item {
+      float: left;
+      margin-right: 50px;
+      color: white;
+      cursor: pointer;    
+    }
+  }
+}
+

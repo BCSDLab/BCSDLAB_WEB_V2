@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import BoardPage from './pages/BoardPage';
+import IndexPage from './pages/IndexPage'
+import AboutPage from './pages/AboutPage';
+import ActivityPage from './pages/ActivityPage';
+import TrackPage from './pages/Track';
+import FrontendPage from './pages/Track/FrontendPage';
+import BackendPage from './pages/Track/BackendPage';
+import AndroidPage from './pages/Track/AndroidPage';
+import UiuxPage from './pages/Track/UiuxPage';
+import GamePage from './pages/Track/GamePage';
+import IosPage from './pages/Track/IosPage';
+import RecruitPage from './pages/Recruit/RecruitPage';
+import RecruitDetailPage from './pages/Recruit/RecruitDetailPage';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Routes>
+        <Route path="/" element={<BoardPage />}>
+          <Route path="/" element={<IndexPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/activity" element={<ActivityPage />} />
+          <Route path="/track" element={<TrackPage />}>
+            <Route path="frontend" element={<FrontendPage />} />
+            <Route path="backend" element={<BackendPage />} />
+            <Route path="android" element={<AndroidPage />} />
+            <Route path="uiux" element={<UiuxPage />} />
+            <Route path="game" element={<GamePage />} />
+            <Route path="ios" element={<IosPage />} />
+          </Route>
+          <Route path="/recruit" element={<RecruitPage />} />
+          <Route path="/recruit/:id" element={<RecruitDetailPage />} />
+        </Route>
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
