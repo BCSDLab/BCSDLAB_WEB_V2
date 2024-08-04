@@ -4,7 +4,7 @@ import IndexPage from './pages/IndexPage'
 import AboutPage from './pages/AboutPage';
 import ActivityPage from './pages/ActivityPage';
 import TrackPage from './pages/TrackPage';
-import TrackContent from 'pages/TrackPage/TrackContent';
+import TrackContent from './pages/TrackPage/TrackContent';
 import RecruitPage from './pages/Recruit/RecruitPage';
 import RecruitDetailPage from './pages/Recruit/RecruitDetailPage';
 import './App.css';

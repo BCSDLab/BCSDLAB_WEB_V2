@@ -1,0 +1,44 @@
+.title {
+  height: 48px;
+  font-family: AppleSDGothicNeoEB00;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3d4551;
+  margin-bottom: 79px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 183px;
+  margin-bottom: 175px;
+
+  &__box {
+    border: 1px solid #e4e7ea;
+    width: 389px;
+    padding: 50px 0;
+  }
+  
+  &__title {
+    font-family: AppleSDGothicNeoB00;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 17px;
+    letter-spacing: -.6px;
+    color: #3d4551;
+  }
+  
+  &__description {
+    height: 43px;
+    font-family: AppleSDGothicNeoL00;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -.48px;
+    color: #778391;
+  }
+}
