@@ -10,7 +10,8 @@
     "lint": "yarn lint:eslint && yarn lint:stylelint",
     "lint:eslint": "eslint src/ --ext .tsx,.ts",
     "lint:stylelint": "stylelint \"src/**/*.scss\" --config .stylelint.json",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "run vite"
   },
   "eslintConfig": {
     "extends": [
