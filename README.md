@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# BCSDLAB WEB Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BCSDLAB WEB is service for [BCSDLAB WEB](https://www.koreatech.ac.kr/) students. //수정 필요
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+KOREATECH Univ. is located in an area away from the city center called Byeongcheon-myeon.
 
-## Expanding the ESLint configuration
+So it is not possible to use services designed around the city center with many students.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Now, We made a service for students.
 
-- Configure the top-level `parserOptions` property like this:
+# Want to Contibute?
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+See Our [Contribute Guide](./CONTRIBUTE.md). 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Want to question?
+
+Make an issue or Contact with this repository leader. 
+
+### Repository leader
+
+[Hana Kim](https://github.com/hanagertrudekim) 
+
+# Learn Our Stack
+
+- Main UI Library/Framework
+  - [React](https://reactjs.org/docs/hello-world.html)
+  - [Vite](https://vitejs.dev/)
+- Language
+  - [TypeScript](https://github.com/typescript-cheatsheets/react)
+- Server State Management Library
+  - [React-Query](https://react-query.tanstack.com/overview)
+- Routing Library
+  - [React Router v6](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+- Linting Library
+  - [ESLint](https://eslint.org/docs/latest/user-guide/getting-started)
+  - [StyleLint](https://stylelint.io/)
+- Styling Library
+  - [Scss](https://sass-lang.com/guide)
+  - [BEM style](http://getbem.com/introduction/)
+  - [CSS Modules](https://github.com/css-modules/css-modules)
+- Testing Library 
+  - [Jest](https://jestjs.io/)
+  - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
